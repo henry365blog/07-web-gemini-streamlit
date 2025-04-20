@@ -3,7 +3,7 @@ from gemini_client import ask_gemini
 from logger_json import save_history_json
 from datetime import datetime
 
-# ✅ Thiết lập trang
+# ✅ Cấu hình trang
 st.set_page_config(page_title="Gemini Web App", page_icon="✨")
 st.title("✨ Gemini Prompt Web App")
 
@@ -20,12 +20,12 @@ st.markdown("""
 
 <div class='info-box'>
     <h4>📦 Dự án: <strong>Gemini CLI & Web Prompt Lab</strong></h4>
-    <p>🔢 Phiên bản: <code>v2.1</code></p>
+    <p>🔢 Phiên bản: <code>v2.2</code></p>
     <p>👨‍💻 Tác giả: <strong>Henry Võ</strong></p>
 </div>
 """, unsafe_allow_html=True)
 
-# 👤 Nhập tên người dùng
+# ✅ Nhập tên người dùng
 username = st.text_input("👤 Nhập tên người dùng (bắt buộc):", value="", key="username_input")
 if not username.strip():
     st.warning("⚠️ Vui lòng nhập tên người dùng để tiếp tục.")
@@ -33,15 +33,15 @@ if not username.strip():
 
 st.markdown(f"Xin chào, **{username}**! Nhập prompt bên dưới:")
 
-# 🌡️ Điều chỉnh mức sáng tạo
+# ✅ Điều chỉnh độ sáng tạo
 temperature = st.slider("🎛️ Độ sáng tạo", 0.0, 1.0, 0.7, 0.1)
 
-# 📝 Giao diện nhập Prompt
+# ✅ Nhập Prompt qua Form
 with st.form("gemini_form", clear_on_submit=True):
     prompt = st.text_area("📝 Nhập prompt:", height=150)
     submitted = st.form_submit_button("🚀 Gửi prompt")
 
-# ✅ Xử lý khi gửi prompt
+# ✅ Xử lý kết quả từ Gemini
 if submitted:
     if prompt.strip() == "":
         st.warning("⚠️ Bạn cần nhập prompt trước khi gửi.")
@@ -50,15 +50,24 @@ if submitted:
             try:
                 result = ask_gemini(prompt, temperature)
 
-                # ✅ Hiển thị kết quả
                 st.success("✅ Kết quả trả về từ Gemini:")
+
+                # ✅ Hiển thị kết quả có nút copy ⧉
                 st.code(result, language="markdown")
                 st.caption("📎 Mẹo: Bấm vào biểu tượng ⧉ góc phải để sao chép kết quả")
 
-                # ✅ Tải file txt theo ngày giờ
+                # ✅ Hiển thị lại dạng không tràn dòng
+                st.markdown(f"""
+                <div style='white-space: pre-wrap; word-wrap: break-word; background-color: #f8f9fa; padding: 1rem; border-radius: 5px; font-family: monospace; color: #212529'>
+                {result}
+                </div>
+                """, unsafe_allow_html=True)
+
+                # ✅ Tạo tên file tải về
                 timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
                 filename = f"gemini_result_{timestamp}.txt"
 
+                # ✅ Nút tải xuống
                 st.download_button(
                     label="💾 Tải kết quả (.txt)",
                     data=result,
@@ -67,7 +76,7 @@ if submitted:
                     help="Tải nội dung vừa tạo thành file văn bản"
                 )
 
-                # ✅ Ghi log
+                # ✅ Ghi log JSON
                 save_history_json(prompt, result, temperature, username=username)
 
             except Exception as e:

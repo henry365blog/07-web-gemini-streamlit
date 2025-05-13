@@ -1,4 +1,33 @@
-.env
+# ========================================
+# 📦 .gitignore cho dự án 07-web-gemini-streamlit
+# ========================================
+
+# 👉 Bỏ thư mục môi trường ảo Python
+venv/
+ENV/
+env/
+.venv/
+
+# 👉 Bỏ file Python cache
 __pycache__/
-logs/
+*.pyc
+*.pyo
+*.pyd
+
+# 👉 Bỏ file log và database tạm
+*.log
+*.sqlite3
+
+# 👉 Bỏ file môi trường chứa KEY/API
+.env
+
+# 👉 Bỏ secrets của Streamlit (chứa API Key)
 .streamlit/secrets.toml
+
+# 👉 Bỏ file dữ liệu cá nhân hoặc file test
+admin_data/
+history/
+
+# 👉 Bỏ file cấu hình hệ thống (nếu có)
+.DS_Store
+Thumbs.db

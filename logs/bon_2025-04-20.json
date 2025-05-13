@@ -1,0 +1,37 @@
+[
+  {
+    "timestamp": "2025-04-20 15:02:15",
+    "prompt": "Bạn làm giúp 5 bài toán + và - trong phạm vi 50 cho học sinh lớp 2 nhé.",
+    "response": "Dưới đây là 5 bài toán cộng trừ trong phạm vi 50 dành cho học sinh lớp 2:\n\n**Bài 1:** Mai có 25 viên kẹo. Bạn được bà cho thêm 12 viên kẹo nữa. Hỏi Mai có tất cả bao nhiêu viên kẹo?\n\n**Bài 2:** Trên cây có 38 con chim.  15 con chim bay đi. Hỏi trên cây còn lại bao nhiêu con chim?\n\n**Bài 3:** Lan có 18 bông hoa màu đỏ và 21 bông hoa màu vàng. Hỏi Lan có tất cả bao nhiêu bông hoa?\n\n**Bài 4:**  Có 45 quả táo trong rổ. Mẹ lấy ra 23 quả để làm bánh. Hỏi trong rổ còn lại bao nhiêu quả táo?\n\n**Bài 5:** An có 20 cái bút chì. Bình có ít hơn An 7 cái bút chì. Hỏi Bình có bao nhiêu cái bút chì?\n",
+    "temperature": 0.7,
+    "user": "Bon"
+  },
+  {
+    "timestamp": "2025-04-20 15:04:07",
+    "prompt": "Bạn bổ sung thêm 5 bài, kiểu + or - có nhớ thêm ví dụ như 35 -26 ",
+    "response": "## 5 Bài Toán Cộng Trừ Có Nhớ:\n\n**Bài 1:**\n\n48 + 35 = ?\n\n* **Cách làm:**\n    * Hàng đơn vị: 8 + 5 = 13, viết 3 nhớ 1.\n    * Hàng chục: 4 + 3 + 1 (nhớ) = 8.\n* **Kết quả:** 83\n\n\n**Bài 2:**\n\n72 - 26 = ?\n\n* **Cách làm:**\n    * Hàng đơn vị: 2 không trừ được 6, mượn 1 chục từ hàng chục thành 12 - 6 = 6.\n    * Hàng chục: 7 - 1 (mượn) - 2 = 4.\n* **Kết quả:** 46\n\n\n**Bài 3:**\n\n65 + 19 = ?\n\n* **Cách làm:**\n    * Hàng đơn vị: 5 + 9 = 14, viết 4 nhớ 1.\n    * Hàng chục: 6 + 1 + 1 (nhớ) = 8.\n* **Kết quả:** 84\n\n\n**Bài 4:**\n\n91 - 37 = ?\n\n* **Cách làm:**\n    * Hàng đơn vị: 1 không trừ được 7, mượn 1 chục từ hàng chục thành 11 - 7 = 4.\n    * Hàng chục: 9 - 1 (mượn) - 3 = 5.\n* **Kết quả:** 54\n\n\n**Bài 5:**\n\n53 + 28 = ?\n\n* **Cách làm:**\n    * Hàng đơn vị: 3 + 8 = 11, viết 1 nhớ 1.\n    * Hàng chục: 5 + 2 + 1 (nhớ) = 8.\n* **Kết quả:** 81\n",
+    "temperature": 0.7,
+    "user": "Bon"
+  },
+  {
+    "timestamp": "2025-04-20 15:15:01",
+    "prompt": "Tạo thêm 5 bài toán + và - tiếp nhé.",
+    "response": "Dưới đây là 5 bài toán cộng và trừ:\n\n**Bài 1:**\n\nMột nông trại có 25 con bò và 18 con gà. Hỏi nông trại có tất cả bao nhiêu con vật?\n\n**Bài 2:**\n\nLan có 36 cái kẹo. Lan cho bạn 12 cái. Hỏi Lan còn lại bao nhiêu cái kẹo?\n\n**Bài 3:**\n\nMột cửa hàng bán được 45 cái bánh mì vào buổi sáng và 32 cái bánh mì vào buổi chiều. Hỏi cả ngày cửa hàng bán được bao nhiêu cái bánh mì?\n\n**Bài 4:**\n\nTrên cây có 58 quả táo.  Gió thổi rụng 23 quả. Hỏi trên cây còn lại bao nhiêu quả táo?\n\n**Bài 5:**\n\nMai có 15 viên bi đỏ và 20 viên bi xanh. Hỏi Mai có tất cả bao nhiêu viên bi?\n",
+    "temperature": 0.7,
+    "user": "Bon"
+  },
+  {
+    "timestamp": "2025-04-20 15:20:26",
+    "prompt": "Tạo 5 bài toán + có nhớ 1 kiểu : 27 + 38",
+    "response": "Dưới đây là 5 bài toán cộng có nhớ, tương tự như bài toán 27 + 38:\n\n1. **Bài toán 1:** Có 45 quả táo đỏ và 18 quả táo xanh. Hỏi có tất cả bao nhiêu quả táo?\n\n2. **Bài toán 2:** Lan có 36 viên bi. Huệ cho Lan thêm 29 viên bi nữa. Hỏi Lan có tất cả bao nhiêu viên bi?\n\n3. **Bài toán 3:**  Một cửa hàng bán được 57 cái bánh mì vào buổi sáng và 25 cái bánh mì vào buổi chiều. Hỏi cả ngày cửa hàng bán được bao nhiêu cái bánh mì?\n\n4. **Bài toán 4:**  An đọc được 19 trang sách vào ngày thứ bảy và 43 trang sách vào ngày chủ nhật. Hỏi cả hai ngày An đọc được bao nhiêu trang sách?\n\n5. **Bài toán 5:**  Một nông trại có 68 con gà mái và 15 con gà trống. Hỏi nông trại có tất cả bao nhiêu con gà?\n",
+    "temperature": 0.7,
+    "user": "Bon"
+  },
+  {
+    "timestamp": "2025-04-20 15:21:35",
+    "prompt": "bạn làm ra theo dạng này nè : Bài 1:\n48 + 35 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 8 + 5 = 13, viết 3 nhớ 1.\n\t• Hàng chục: 4 + 3 + 1 (nhớ) = 8.\n\t• Kết quả: 83\nđể tôi còn in ra cho bé làm",
+    "response": "## Bài 1:\n48 + 35 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 8 + 5 = 13, viết 3 nhớ 1.\n\t• Hàng chục: 4 + 3 + 1 (nhớ) = 8.\n\t• Kết quả: 83\n\n## Bài 2:\n27 + 61 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 7 + 1 = 8, viết 8.\n\t• Hàng chục: 2 + 6 = 8, viết 8.\n\t• Kết quả: 88\n\n## Bài 3:\n15 + 5 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 5 + 5 = 10, viết 0 nhớ 1.\n\t• Hàng chục: 1 + 1 (nhớ) = 2.\n\t• Kết quả: 20\n\n## Bài 4:\n36 + 42 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 6 + 2 = 8, viết 8.\n\t• Hàng chục: 3 + 4 = 7, viết 7.\n\t• Kết quả: 78\n\n## Bài 5:\n54 + 24 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 4 + 4 = 8, viết 8.\n\t• Hàng chục: 5 + 2 = 7, viết 7.\n\t• Kết quả: 78\n\n## Bài 6:\n19 + 60 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 9 + 0 = 9, viết 9.\n\t• Hàng chục: 1 + 6 = 7, viết 7.\n\t• Kết quả: 79\n\n## Bài 7:\n72 + 7 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 2 + 7 = 9, viết 9.\n\t• Hàng chục: 7 + 0 = 7, viết 7. (Vì số 7 chỉ có hàng đơn vị, xem như hàng chục là 0)\n\t• Kết quả: 79\n\n## Bài 8:\n65 + 25 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 5 + 5 = 10, viết 0 nhớ 1.\n\t• Hàng chục: 6 + 2 + 1 (nhớ) = 9.\n\t• Kết quả: 90\n\n## Bài 9:\n33 + 56 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 3 + 6 = 9, viết 9.\n\t• Hàng chục: 3 + 5 = 8, viết 8.\n\t• Kết quả: 89\n\n## Bài 10:\n47 + 22 = ?\n\t• Cách làm:\n\t• Hàng đơn vị: 7 + 2 = 9, viết 9.\n\t• Hàng chục: 4 + 2 = 6, viết 6.\n\t• Kết quả: 69\n",
+    "temperature": 0.7,
+    "user": "Bon"
+  }
+]

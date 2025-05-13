@@ -1,9 +1,0 @@
-[
-  {
-    "timestamp": "2025-04-27 10:23:03",
-    "prompt": "Cho ví dụ về lệnh **head <tên file>:** Hiển thị 10 dòng đầu của file.",
-    "response": "Giả sử bạn có một file text tên là `data.txt` với nội dung sau:\n\n```\nDòng 1: Đây là dòng đầu tiên.\nDòng 2: Đây là dòng thứ hai.\nDòng 3: Đây là dòng thứ ba.\nDòng 4: Đây là dòng thứ tư.\nDòng 5: Đây là dòng thứ năm.\nDòng 6: Đây là dòng thứ sáu.\nDòng 7: Đây là dòng thứ bảy.\nDòng 8: Đây là dòng thứ tám.\nDòng 9: Đây là dòng thứ chín.\nDòng 10: Đây là dòng thứ mười.\nDòng 11: Đây là dòng thứ mười một.\nDòng 12: Đây là dòng thứ mười hai.\n```\n\nLệnh `head data.txt` sẽ hiển thị 10 dòng đầu tiên của file `data.txt`:\n\n```\nDòng 1: Đây là dòng đầu tiên.\nDòng 2: Đây là dòng thứ hai.\nDòng 3: Đây là dòng thứ ba.\nDòng 4: Đây là dòng thứ tư.\nDòng 5: Đây là dòng thứ năm.\nDòng 6: Đây là dòng thứ sáu.\nDòng 7: Đây là dòng thứ bảy.\nDòng 8: Đây là dòng thứ tám.\nDòng 9: Đây là dòng thứ chín.\nDòng 10: Đây là dòng thứ mười.\n```\n\n\nNếu bạn muốn hiển thị một số dòng khác, ví dụ 3 dòng đầu, bạn có thể dùng lệnh `head -n 3 data.txt`:\n\n```\nDòng 1: Đây là dòng đầu tiên.\nDòng 2: Đây là dòng thứ hai.\nDòng 3: Đây là dòng thứ ba.\n```\n",
-    "temperature": 0.7,
-    "user": "it_admin"
-  }
-]
